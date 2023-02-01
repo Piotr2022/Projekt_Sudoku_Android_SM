@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="titleText">SUDOKU</string>
+    <string name="newGameButtonText">NEW GAME</string>
+    <string name="continueGameButtonText">KONTYNUUJ GRĘ</string>
+    <string name="congratulationsText">CONGRATULATIONS</string>
+    <string name="returntToMenuButtonText">BACK TO MENU</string>
+    <string name="timerText">"Time: "</string>
+    <string name="timerValueTEXT">"Some Value "</string>
+    <string name="pauseText">PAUSE</string>
+    <string name="resumeButtonText">Resume game</string>
+    <string name="chooseDifficultyLevel">Choose a difficulty level</string>
+    <string name="easyButtonText">Easy</string>
+    <string name="normalButtonText">Normal</string>
+    <string name="hardButtonText">Hard</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

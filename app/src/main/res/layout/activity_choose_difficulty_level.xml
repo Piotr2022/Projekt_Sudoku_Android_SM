@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+tools:context=".view.ChooseDifficultyLevelActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="75dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="200dp"
+    android:fontFamily="sans-serif-black"
+
+    android:textSize="30dp"
+    android:text="@string/chooseDifficultyLevel"
+    tools:layout_editor_absoluteX="151dp"
+    tools:layout_editor_absoluteY="287dp"
+    />
+
+<Button
+    android:id="@+id/easyButton"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/easyButtonText"
+    android:layout_marginTop="10dp"
+    tools:layout_editor_absoluteX="161dp"
+    tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/normalButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/normalButtonText"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="377dp" />
+    <Button
+
+        android:id="@+id/hardButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/hardButtonText"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="377dp" />
+</LinearLayout>

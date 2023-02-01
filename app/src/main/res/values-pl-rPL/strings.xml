@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="titleText">SUDOKU</string>
+    <string name="newGameButtonText">NOWA GRA</string>
+    <string name="continueGameButtonText">KONTYNUUJ GRĘ</string>
+    <string name="congratulationsText">GRATULACJE</string>
+    <string name="returntToMenuButtonText">POWRÓT DO MENU</string>
+    <string name="timerText">"Czas: "</string>
+    <string name="timerValueTEXT">"Some Value "</string>
+    <string name="pauseText">PAUZA</string>
+    <string name="resumeButtonText">Wznów grę</string>
+    <string name="chooseDifficultyLevel">Wybierz poziom trudności</string>
+    <string name="easyButtonText">Łatwy</string>
+    <string name="normalButtonText">Normalny</string>
+    <string name="hardButtonText">Trudny</string>
+</resources>

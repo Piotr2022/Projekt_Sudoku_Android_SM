@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".view.WinActivity">
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40dp"
+    android:text="@string/congratulationsText"
+    android:fontFamily="sans-serif-black"
+    android:layout_marginTop="200dp"
+    android:layout_marginBottom="40dp"
+    android:layout_gravity="center"
+    />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/timerText"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            />
+
+        <TextView
+            android:id="@+id/timeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Some Value"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+<Button
+    android:id="@+id/newGameButton"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="@string/newGameButtonText"
+    android:layout_gravity="center"
+
+    android:layout_above="@+id/returnToMenuButton"/>
+
+<Button
+    android:id="@+id/returnToMenuButton"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="@string/returntToMenuButtonText"
+    android:layout_gravity="center"
+/>
+</LinearLayout>
